@@ -42,7 +42,7 @@ export function About() {
           >
             <div className="relative rounded-2xl overflow-hidden aspect-[3/4] max-h-[540px]">
               <ImageWithFallback
-                src="/images/about-treadmill.jpg"
+                src={`${import.meta.env.BASE_URL}images/about-treadmill.jpg`}
                 alt="Physiotherapist working with patient on treadmill"
                 className="w-full h-full object-cover"
               />

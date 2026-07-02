@@ -7,7 +7,7 @@ const services = [
     title: "Manual Therapy",
     description:
       "Hands-on techniques to mobilize joints and soft tissue, reducing pain and improving range of motion.",
-    image: "/images/service-manual.jpg",
+    image: `${import.meta.env.BASE_URL}images/service-manual.jpg`,
     tag: "Most Popular",
     icon: <Activity size={24} strokeWidth={1.5} className="text-white" />,
   },
@@ -15,7 +15,7 @@ const services = [
     title: "Sports Rehabilitation",
     description:
       "Specialized programs for athletes to recover from injury and return to peak performance safely.",
-    image: "/images/service-sports.jpg",
+    image: `${import.meta.env.BASE_URL}images/service-sports.jpg`,
     tag: null,
     icon: <HeartPulse size={24} strokeWidth={1.5} className="text-white" />,
   },
@@ -23,7 +23,7 @@ const services = [
     title: "Post-Surgery Recovery",
     description:
       "Structured rehabilitation following orthopaedic surgery to restore strength and functionality.",
-    image: "/images/service-post-surgery.jpg",
+    image: `${import.meta.env.BASE_URL}images/service-post-surgery.jpg`,
     tag: null,
     icon: <Stethoscope size={24} strokeWidth={1.5} className="text-white" />,
   },
@@ -31,7 +31,7 @@ const services = [
     title: "Chronic Pain Management",
     description:
       "Long-term strategies combining manual therapy, exercise, and education to manage persistent pain.",
-    image: "/images/service-chronic.jpg",
+    image: `${import.meta.env.BASE_URL}images/service-chronic.jpg`,
     tag: null,
     icon: <Sparkles size={24} strokeWidth={1.5} className="text-white" />,
   },
@@ -39,7 +39,7 @@ const services = [
     title: "Neurological Rehabilitation",
     description:
       "Targeted programs for patients with neurological conditions such as stroke, MS, and Parkinson's.",
-    image: "/images/about-treadmill.jpg",
+    image: `${import.meta.env.BASE_URL}images/about-treadmill.jpg`,
     tag: "Specialist",
     icon: <Brain size={24} strokeWidth={1.5} className="text-white" />,
   },
@@ -47,7 +47,7 @@ const services = [
     title: "Pediatric Physiotherapy",
     description:
       "Gentle, child-friendly physiotherapy for developmental issues, sports injuries, and postural problems.",
-    image: "/images/service-pediatric.jpg",
+    image: `${import.meta.env.BASE_URL}images/service-pediatric.jpg`,
     tag: null,
     icon: <Baby size={24} strokeWidth={1.5} className="text-white" />,
   },

@@ -124,7 +124,7 @@ export function Hero() {
         >
           <div className="relative rounded-2xl overflow-hidden aspect-[4/5] max-h-[580px]">
             <ImageWithFallback
-              src="/images/hero-physio.jpg"
+              src={`${import.meta.env.BASE_URL}images/hero-physio.jpg`}
               alt="Physiotherapist treating a patient"
               className="w-full h-full object-cover"
             />
